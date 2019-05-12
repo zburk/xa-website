@@ -20,8 +20,7 @@ export default {
 <style scoped>
   h1 {
     font-family: 'Underland', 'sans-serif';
-    font-size: 3rem;
-    width: 300px;
+    font-size: 4rem;
     transform: rotate(-10deg);
   }
   

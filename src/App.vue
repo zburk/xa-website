@@ -30,4 +30,10 @@ export default {
   .router-view {
     z-index: -999;
   }
+
+  h2 {
+    font-family: 'Underland', 'sans-serif';
+    color: #3490dc;
+    font-size: 3.5rem;
+  }
 </style>
