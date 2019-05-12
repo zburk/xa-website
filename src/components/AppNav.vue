@@ -3,7 +3,7 @@
     <div class="flex-1 pl-5">
       <span class="text-xl text-white">Chi Alpha at UNC</span>
     </div>
-    <div class="flex-1 px-10">
+    <div class="flex-1 pl-10 pr-6">
       <ul class="list-reset text-right flex justify-between">
         <li><router-link :to="{ name: 'home' }" exact class="text-black">Home</router-link></li>
         <li><router-link :to="{ name: 'about' }" class="text-black">About</router-link></li>

@@ -38,6 +38,23 @@
 
       <p class="block w-1/2 text-center">We believe that the Bible is the word of God and we are going to look at it to see how it applies to our lives. We encourage and invite questions as we figure it out together.</p>
     </section>
+
+    <section class="pb-20 flex flex-row h-128">
+      <div class="flex-1 h-full mens">
+        <div class="flex w-full h-full items-center justify-center">
+            <router-link :to="{ name: 'men' }">
+              <button class="bg-blue p-4 rounded text-white hover:bg-blue-light">Men's Lifegroup</button>
+            </router-link>
+        </div>
+      </div>
+      <div class="flex-1 h-full womens">
+        <div class="flex w-full h-full items-center justify-center">
+            <router-link :to="{ name: 'women' }">
+              <button class="bg-blue p-4 rounded text-white hover:bg-blue-light">Women's Lifegroup</button>
+            </router-link>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -51,4 +68,16 @@ export default {
 </script>
 
 <style scoped>
+  .mens {
+    background-image: url('https://via.placeholder.com/600x600');
+  }
+
+  .womens {
+    background-image: url('https://via.placeholder.com/600x600');
+  }
+
+  .mens, .womens {
+    background-size: cover;
+    background-position: center;
+  }
 </style>
