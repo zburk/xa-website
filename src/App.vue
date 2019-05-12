@@ -1,11 +1,9 @@
 <template>
   <div id="app">
-    <div class="container">
-      <app-nav></app-nav>
-      <router-view
-        class="pin-t absolute"
-      ></router-view>
-    </div>
+    <app-nav></app-nav>
+    <router-view
+      class="pin-t absolute router-view w-full"
+    ></router-view>
   </div>
 </template>
 
@@ -21,5 +19,15 @@ export default {
 </script>
 
 <style>
+  body {
+    font-family: 'Montserrat', 'sans-serif';
+  }
 
+  a {
+    text-decoration: none;
+  }
+
+  .router-view {
+    z-index: -999;
+  }
 </style>

@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@font-face {
+    font-family: Underland;
+    src: url("./fonts/Underland-Script/Underland.otf") format("opentype");
+}
 
 @tailwind preflight;
 @tailwind components;
 @tailwind utilities;
-
-a {
-	text-decoration: none;
-}
