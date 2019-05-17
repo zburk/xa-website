@@ -2,7 +2,7 @@
   <div id="app">
     <app-nav></app-nav>
     <router-view
-      class="pin-t absolute router-view w-full"
+      class="lg:pin-t absolute router-view w-full"
     ></router-view>
   </div>
 </template>
