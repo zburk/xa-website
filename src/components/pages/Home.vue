@@ -23,7 +23,7 @@
             <p>Chi Alpha has groups on more than 300 campuses in the United States and around the world.</p>
           </div>
           <div class="flex-1">
-            <img src="https://via.placeholder.com/500x250" class="rounded mt-6 lg:-mt-10">
+            <img src="https://via.placeholder.com/500x250" class="rounded mt-6 lg:-mt-4">
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col items-center h-full justify-center my-6">
-    <h1 class="text-white mb-8">Get Connected</h1>
+    <h1 class="text-white lg:mt-6 mb-8">Get Connected</h1>
     <form class="w-1/2">
       <div class="flex mb-6">
         <div class="w-full">
