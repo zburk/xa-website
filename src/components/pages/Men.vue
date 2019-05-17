@@ -20,6 +20,7 @@
           <base-member
             :member="member">
           </base-member>
+          <h3 class="text-center pt-3 text-grey-darkest font-semibold">{{ member.name }}</h3>
         </div>
         <div class="flex-grow">
           {{ member.text }}
