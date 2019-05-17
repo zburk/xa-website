@@ -4,17 +4,17 @@
     <form class="w-1/2">
       <div class="flex mb-6">
         <div class="w-full">
-          <input class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full py-2 px-4 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-blue-light" id="name" type="text" placeholder="Name">
+          <input class="bg-grey-darker appearance-none border-2 border-grey-darker rounded w-full py-2 px-4 text-white leading-tight focus:outline-none focus:border-blue-light" id="name" type="text" placeholder="Name">
         </div>
       </div>
       <div class="flex mb-6">
         <div class="w-full">
-          <input class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full py-2 px-4 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-blue-light" id="name" type="text" placeholder="Email">
+          <input class="bg-grey-darker appearance-none border-2 border-grey-darker rounded w-full py-2 px-4 text-white leading-tight focus:outline-none focus:border-blue-light" id="name" type="text" placeholder="Email">
         </div>
       </div>
       <div class="flex mb-6">
         <div class="w-full">
-          <textarea class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full py-2 px-4 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-blue-light" id="name" type="text" placeholder="Message"></textarea>
+          <textarea class="bg-grey-darker appearance-none border-2 border-grey-darker rounded w-full py-2 px-4 text-white leading-tight focus:outline-none focus:border-blue-light h-32" id="name" type="text" placeholder="Message"></textarea>
         </div>
       </div>
       <div class="flex justify-center">

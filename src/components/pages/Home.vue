@@ -8,7 +8,7 @@
           img="https://via.placeholder.com/1000x600"
         ></base-banner>
       </div>
-      <div class="flex-1 bg-grey-darkest">
+      <div class="flex-1 bg-black">
         <get-connected-form>
         </get-connected-form>
       </div>
