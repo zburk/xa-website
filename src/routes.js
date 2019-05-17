@@ -12,32 +12,50 @@ export default {
         {
             path: '/',
             component: Home,
-            name: 'home'
+            name: 'home',
+            meta: {
+                title: 'Home | Chi Alpha at UNC'
+            }
         },
         {
             path: '/about',
             component: About,
-            name: 'about'
+            name: 'about',
+            meta: {
+                title: 'About | Chi Alpha at UNC'
+            }
         },
         {
             path: '/staff',
             component: Staff,
-            name: 'staff'
+            name: 'staff',
+            meta: {
+                title: 'Staff | Chi Alpha at UNC'
+            }
         },
         {
             path: '/men',
             component: Men,
-            name: 'men'
+            name: 'men',
+            meta: {
+                title: 'Men | Chi Alpha at UNC'
+            }
         },
         {
             path: '/women',
             component: Women,
-            name: 'women'
+            name: 'women',
+            meta: {
+                title: 'Women | Chi Alpha at UNC'
+            }
         },
         {
             path: '/give',
             component: Blank,
-            name: 'give'
+            name: 'give',
+            meta: {
+                title: 'Give | Chi Alpha at UNC'
+            }
         }
     ]
 }
