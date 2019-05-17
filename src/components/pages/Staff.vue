@@ -12,21 +12,21 @@
 
     <div class="flex flex-row flex-wrap mx-auto justify-center">
       <div class="m-10" v-for="(member, index) in staff1" :key="index">
-        <div :style="styleObject(member)" class="rounded-full staff-member bg-center" @click="select(member)">
-          <div class="h-full w-full hover:bg-blue rounded-full border-4 border-blue" :class="{ 'bg-blue': selectedMember === member }">
-            <img :src="member.headshot" class="invisible">
-          </div>
-        </div>
+        <base-member
+          :member="member"
+          :selectedMember="selectedMember"
+          v-on:select="selectedMember = $event">
+        </base-member>
       </div>
     </div>
 
     <div class="flex flex-row flex-wrap mx-auto justify-center">
       <div class="m-10" v-for="(member, index) in staff2" :key="index">
-        <div :style="styleObject(member)" class="rounded-full staff-member bg-center" @click="select(member)">
-          <div class="h-full w-full hover:bg-blue rounded-full border-4 border-blue" :class="{ 'bg-blue': selectedMember === member }">
-            <img :src="member.headshot" class="invisible">
-          </div>
-        </div>
+        <base-member
+          :member="member"
+          :selectedMember="selectedMember"
+          v-on:select="selectedMember = $event">
+        </base-member>
       </div>
     </div>
 
@@ -38,12 +38,10 @@
         </span>
       </h2>
 
-      <div class="container mx-auto my-10">
-        <div class="flex flex-row">
-          <p class="flex-grow leading-normal pr-6">{{ selectedMember.text }}</p>
-          <div class="flex-none">
-            <img :src="selectedMember.img">
-          </div>
+      <div class="flex flex-row my-10">
+        <p class="flex-grow leading-normal pr-6">{{ selectedMember.text }}</p>
+        <div class="flex-none">
+          <img :src="selectedMember.img">
         </div>
       </div>
     </div>
@@ -98,9 +96,6 @@ export default {
     }
   },
   methods: {
-    styleObject(member) {
-      return "background-image: url('" + member.headshot + "')"
-    },
     select(member) {
       this.selectedMember = member;
     }
@@ -112,7 +107,4 @@ export default {
 </script>
 
 <style scoped>
-  .staff-member > div {
-    @apply opacity-50
-  }
 </style>

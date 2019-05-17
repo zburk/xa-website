@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'Banner',
+  name: 'BaseBanner',
   props: ['text', 'img'],
   computed: {
     styleObject() {
