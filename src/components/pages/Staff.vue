@@ -10,27 +10,45 @@
       </div>
     </div>
 
-    <div class="flex flex-row flex-wrap mx-auto justify-center">
+    <div class="flex flex-col lg:flex-row flex-wrap mx-auto justify-center">
       <div class="m-10" v-for="(member, index) in staff1" :key="index">
         <base-member
           :member="member"
           :selectedMember="selectedMember"
           v-on:select="selectedMember = $event">
         </base-member>
+
+        <div class="lg:hidden">
+          <h2 class="text-3xl mt-3">{{ member.name }}</h2>
+          <h3 class="font-sans text-black text-xl mt-3" v-if="member.title">
+            {{ member.title }}
+          </h3>
+
+          <p>{{ member.text }}</p>
+        </div>
       </div>
     </div>
 
-    <div class="flex flex-row flex-wrap mx-auto justify-center">
+    <div class="flex flex-col lg:flex-row flex-wrap mx-auto justify-center">
       <div class="m-10" v-for="(member, index) in staff2" :key="index">
         <base-member
           :member="member"
           :selectedMember="selectedMember"
           v-on:select="selectedMember = $event">
         </base-member>
+
+        <div class="lg:hidden">
+          <h2 class="text-3xl mt-3">{{ member.name }}</h2>
+          <h3 class="font-sans text-black text-xl mt-3" v-if="member.title">
+            {{ member.title }}
+          </h3>
+
+          <p>{{ member.text }}</p>
+        </div>
       </div>
     </div>
 
-    <div class="container mx-auto my-10">
+    <div class="container mx-auto my-10 hidden lg:block">
       <h2 class="text-4xl">{{ selectedMember.name }}
         <span class="font-sans text-black text-2xl" v-if="selectedMember.title">
           <span class="mx-4">|</span>
