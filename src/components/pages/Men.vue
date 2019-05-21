@@ -5,7 +5,7 @@
         <base-banner
           class="h-128"
           text="Men"
-          img="https://via.placeholder.com/2000x1200"
+          img="/img/mens_campout.jpg"
         ></base-banner>
       </div>
     </div>
@@ -48,17 +48,17 @@ export default {
       leaders: [
         {
           name: 'Christopher Piccirillo',
-          headshot: 'https://via.placeholder.com/200x200',
+          headshot: '/img/ChristopherPicc-Headshot.jpg',
           text: 'What I learned most from Chi Alpha is the importance of community in the Christian life. I came to college as a super young and naïve Christian with the notion that I didn’t really need a community to follow God. But gradually through the persistent outreach of friends and mentors at Chi Alpha I began to realize that I was wrong and that God created me for community too. God showed me through Chi Alpha that when I was saved I became just a single member of His body and that it is only when the members gather together that we can fully experience the movement of God in our hearts and on our campus. Through Chi Alpha God has given me brothers and sisters who can build me up and support me in fighting the good fight of faith.'
         },
         {
           name: 'Stephen Kenney',
-          headshot: 'https://via.placeholder.com/200x200',
+          headshot: '/img/StephenKenney-Headshot.jpg',
           text: 'At first, UNC was my opportunity to bury my issues from high school. No one knew the bitterness I still held, and frankly, no one cared. Things changed fast, though, when God stepped in! Through His guidance and my awesome friends in Chi Alpha, I’ve overcome and found my true worth in God alone. His goodness extends to all, and none more so than when we need Him most. God is doing incredible things through Chi Alpha; come join us and see!'
         },
         {
           name: 'Thomas Dix',
-          headshot: 'https://via.placeholder.com/200x200',
+          headshot: '/img/TomDix-Headshot.jpg',
           text: 'On campus as a first year, I was starting to make a few friends here and there in different classes and clubs I was trying out, but I only hung out with those people IN those clubs and classes. Very rarely did those people ask me to hang out with them afterwards, much less return my food/hangout invites. I was looking at campus ministries, and when I came to the Chi Alpha Family Group, I was quickly and warmly welcomed by several friendly faces, who asked me about me and as much as I wanted to ask them about them. It meant so much to me;  the genuinely interested expressions given by people who wanted to talk to me, and cared about what I thought, though they had only known me a few minutes. I was soon invited to have lunch with them and to come to a game/food night, and asked if I would give them my number. The difference might seem insignificant, but the simple switch in my life from being the one asking others to hang out to being asked to hang out really made me feel wanted, feel welcome. God works much in the same way – he always and forever invites us to talk to him, and desires that we walk closer to him. Chi Alpha members emulate so well the boldness and vulnerability that God exudes towards us, and I pray always that I’ll be able to show God’s love for everyone to other new faces on campus in this way.'
         }
       ]

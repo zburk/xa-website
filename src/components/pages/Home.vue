@@ -5,7 +5,7 @@
         <base-banner
           class="h-64 lg:h-full"
           text="Welcome to Family"
-          img="https://via.placeholder.com/1000x600"
+          img="/img/welcome-to-family.jpg"
         ></base-banner>
       </div>
       <div class="flex-1 bg-black">
@@ -23,7 +23,7 @@
             <p>Chi Alpha has groups on more than 300 campuses in the United States and around the world.</p>
           </div>
           <div class="flex-1">
-            <img src="https://via.placeholder.com/500x250" class="rounded mt-6 lg:-mt-4">
+            <img src="/img/pit.jpg" class="rounded mt-6 lg:-mt-4">
           </div>
         </div>
       </div>
@@ -69,10 +69,10 @@ export default {
 
 <style scoped>
   .mens {
-    background-image: url('https://via.placeholder.com/600x600');
+    background-image: url('/img/mens_hurricane.jpg');
   }
 
   .womens {
-    background-image: url('https://via.placeholder.com/600x600');
+    background-image: url('/img/girls_getaway.jpg');
   }
 </style>
