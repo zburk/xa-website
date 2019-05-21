@@ -19,8 +19,8 @@
         </base-member>
 
         <div class="lg:hidden">
-          <h2 class="text-3xl mt-3">{{ member.name }}</h2>
-          <h3 class="font-sans text-black text-xl mt-3" v-if="member.title">
+          <h2 class="text-3xl my-3">{{ member.name }}</h2>
+          <h3 class="font-sans text-black text-xl my-3" v-if="member.title">
             {{ member.title }}
           </h3>
 
@@ -38,8 +38,8 @@
         </base-member>
 
         <div class="lg:hidden">
-          <h2 class="text-3xl mt-3">{{ member.name }}</h2>
-          <h3 class="font-sans text-black text-xl mt-3" v-if="member.title">
+          <h2 class="text-3xl my-3">{{ member.name }}</h2>
+          <h3 class="font-sans text-black text-xl m6-3" v-if="member.title">
             {{ member.title }}
           </h3>
 
