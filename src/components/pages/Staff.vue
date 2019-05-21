@@ -11,7 +11,7 @@
     </div>
 
     <div class="flex flex-col lg:flex-row flex-wrap mx-auto justify-center">
-      <div class="m-10" v-for="(member, index) in staff1" :key="index">
+      <div class="mt-20 m-10" v-for="(member, index) in staff1" :key="index">
         <base-member
           :member="member"
           :selectedMember="selectedMember"
