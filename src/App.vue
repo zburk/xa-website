@@ -33,7 +33,7 @@ export default {
 
   h2 {
     font-family: 'Underland', 'sans-serif';
-    color: #3490dc;
+    color: #4B9CD3;
     font-size: 3.5rem;
   }
 </style>
