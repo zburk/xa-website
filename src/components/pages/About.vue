@@ -19,7 +19,7 @@
             </p>
           </div>
           <div class="flex-1 -ml-32 mt-24">
-            <img src="https://via.placeholder.com/500x250" class="rounded">
+            <img src="img/Pit-Table.jpg" class="rounded">
           </div>
         </div>
       </div>
@@ -29,7 +29,7 @@
       <div class="container mx-auto">
         <div class="flex flex-row px-32 items-center">
           <div class="flex-none">
-            <img src="https://via.placeholder.com/300x300" class="rounded">
+            <img src="/img/quelf.jpg" class="rounded">
           </div>
           <div class="flex-grow text-grey-darkest">
             <p class="rounded p-8 ml-6 leading-normal bg-blue-lighter">

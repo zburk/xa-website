@@ -5,7 +5,7 @@
         <base-banner
           class="h-128"
           text="Staff"
-          img="/img/staff.jpg"
+          img="/img/student-leaders.jpg"
         ></base-banner>
       </div>
     </div>
