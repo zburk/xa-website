@@ -6,6 +6,9 @@ import Women from './components/pages/Women'
 import Blank from './components/pages/Blank'
 
 export default {
+    scrollBehavior() {
+        return { x: 0, y: 0 };
+    },
     mode: 'history',
     linkActiveClass: 'font-bold',
     routes: [
