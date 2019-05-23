@@ -78,7 +78,7 @@ export default {
           headshot: '/img/JoeNewell-Headshot.jpg',
           img: '/img/JoeNewell.jpg',
           title: 'Campus Pastor',
-          text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita.'
+          text: 'Joe is in his tenth year with Chi Alpha. He currently directs XA along with his wife Mishael. He is a graduate of Hampden-Sydney College (History), earning his ordination through Global University and the Assemblies of God. He and Mishael met as single missionaries in Costa Rica in 1996 and celebrated their 20th anniversary in March. They have two children — Josiah(14) and Elijah(9). Joe loves sports — especially the Cubs — history and art.'
         },
         {
           name: 'David Lao',
