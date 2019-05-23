@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="flex justify-center">
-        <button class="bg-blue hover:bg-blue-light focus:shadow-outline focus:outline-none text-white py-4 px-10 rounded" type="button">
+        <button class="bg-blue hover:bg-blue-light focus:shadow-outline focus:outline-none text-white py-4 px-10 rounded" type="submit">
           Send
         </button>
       </div>
