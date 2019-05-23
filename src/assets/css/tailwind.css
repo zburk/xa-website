@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap');
 @font-face {
     font-family: Underland;
+    font-display: auto;
     src: url("./fonts/Underland-Script/Underland.otf") format("opentype");
 }
 
