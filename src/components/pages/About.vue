@@ -12,8 +12,8 @@
 
     <section class="my-10 pb-10">
       <div class="container mx-auto">
-        <div class="flex flex-row">
-          <div class="flex-1 px-32 -mr-32 mt-10 z-40 text-grey-darkest">
+        <div class="flex flex-col lg:flex-row">
+          <div class="flex-1 pl-32 lg:px-32 lg:-mr-32 mt-10 z-40 text-grey-darkest">
             <p class="rounded p-8 leading-normal devoted-disciples">
               Our vision for Chi Alpha is to learn together to be Devoted Disciples of Jesus who build Deep Friendships with those around us and act as Deliberate Servants of our campus, community, and world.
             </p>
@@ -27,12 +27,12 @@
 
     <section class="py-20 bg-grey-lighter">
       <div class="container mx-auto">
-        <div class="flex flex-row px-32 items-center">
+        <div class="flex flex-col lg:flex-row lg:px-32 items-center">
           <div class="flex-none">
             <img src="/img/quelf.jpg" class="rounded">
           </div>
           <div class="flex-grow text-grey-darkest">
-            <p class="rounded p-8 ml-6 leading-normal bg-blue-lighter">
+            <p class="rounded p-8 mt-24 lg:mt-0 lg:ml-6 leading-normal bg-blue-lighter">
               In Chi Alpha, we believe that no one was meant to live this life alone. We have lots of opportunities to hang out together, learn together, and play together. Check out the Home page for more info about our events and follow us on Facebook and Instagram to see what’s up.
             </p>
           </div>

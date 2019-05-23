@@ -3,7 +3,8 @@ import About from './components/pages/About'
 import Staff from './components/pages/Staff'
 import Men from './components/pages/Men'
 import Women from './components/pages/Women'
-import Blank from './components/pages/Blank'
+import Give from './components/pages/Give'
+// import Blank from './components/pages/Blank'
 
 export default {
     scrollBehavior() {
@@ -104,7 +105,7 @@ export default {
         },
         {
             path: '/give',
-            component: Blank,
+            component: Give,
             name: 'give',
             meta: {
                 title: 'Give | Chi Alpha at UNC',

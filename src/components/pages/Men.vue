@@ -15,14 +15,14 @@
     </div>
 
     <div class="container mx-auto mb-24">
-      <div class="flex flex-row items-center mb-10" v-for="(member, index) in leaders" :key="index">
+      <div class="flex flex-col lg:flex-row items-center mb-10" v-for="(member, index) in leaders" :key="index">
         <div class="flex-none px-6">
           <base-member
             :member="member">
           </base-member>
           <h3 class="text-center pt-3 text-grey-darkest font-semibold">{{ member.name }}</h3>
         </div>
-        <div class="flex-grow">
+        <div class="flex-grow mt-4 lg:-mt-10 mx-10 lg:mx-0">
           {{ member.text }}
         </div>
       </div>

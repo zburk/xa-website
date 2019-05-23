@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col lg:flex-row bg-blue lg:bg-transparent pt-5 align-top">
     <div class="flex-1 pl-5">
-      <span class="text-xl text-white">Chi Alpha at UNC</span>
+      <a href="/"><span class="text-xl text-white">Chi Alpha at UNC</span></a>
     </div>
     <div class="flex-1 pl-10 pr-6">
       <ul class="list-reset text-right flex flex-col lg:flex-row items-center justify-between">
