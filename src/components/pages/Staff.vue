@@ -24,7 +24,7 @@
             {{ member.title }}
           </h3>
 
-          <p>{{ member.text }}</p>
+          <p class="leading-normal">{{ member.text }}</p>
         </div>
       </div>
     </div>
@@ -43,7 +43,7 @@
             {{ member.title }}
           </h3>
 
-          <p>{{ member.text }}</p>
+          <p class="leading-normal">{{ member.text }}</p>
         </div>
       </div>
     </div>
