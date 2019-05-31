@@ -4,6 +4,7 @@ import Staff from './components/pages/Staff'
 import Men from './components/pages/Men'
 import Women from './components/pages/Women'
 import Give from './components/pages/Give'
+import Resources from './components/pages/Resources'
 // import Blank from './components/pages/Blank'
 
 export default {
@@ -109,6 +110,24 @@ export default {
             name: 'give',
             meta: {
                 title: 'Give | Chi Alpha at UNC',
+                metaTags: [
+                    {
+                      name: 'description',
+                      content: 'Our vision for Chi Alpha is to learn together to be Devoted Disciples of Jesus who build Deep Friendships with those around us and act as Deliberate Servants of our campus, community, and world. Chi Alpha is a ministry that exists to reach college students, build them up in their faith and send them out to serve and make a difference in a world in great need.'
+                    },
+                    {
+                      property: 'og:description',
+                      content: 'Our vision for Chi Alpha is to learn together to be Devoted Disciples of Jesus who build Deep Friendships with those around us and act as Deliberate Servants of our campus, community, and world. Chi Alpha is a ministry that exists to reach college students, build them up in their faith and send them out to serve and make a difference in a world in great need.'
+                    }
+                ]
+            }
+        },
+        {
+            path: '/resources',
+            component: Resources,
+            name: 'resources',
+            meta: {
+                title: 'Resources | Chi Alpha at UNC',
                 metaTags: [
                     {
                       name: 'description',
