@@ -33,7 +33,7 @@
           </div>
           <div class="flex-grow text-grey-darkest">
             <p class="rounded p-8 mt-24 lg:mt-0 lg:ml-6 leading-normal bg-blue-lighter">
-              In Chi Alpha, we believe that no one was meant to live this life alone. We have lots of opportunities to hang out together, learn together, and play together. Check out the Home page for more info about our events and follow us on Facebook and Instagram to see what’s up.
+              In Chi Alpha, we believe that no one was meant to live this life alone. We have lots of opportunities to hang out together, learn together, and play together. Check out the Home page for more info about our events and follow us on <a href="https://www.facebook.com/XAatUNC/" target="_blank" class="text-blue hover:underline">Facebook</a> and <a href="https://www.instagram.com/uncchialpha/" target="_blank" class="text-blue hover:underline">Instagram</a> to see what’s up.
             </p>
           </div>
         </div>

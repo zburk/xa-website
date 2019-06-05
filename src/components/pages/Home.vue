@@ -40,14 +40,14 @@
     </section>
 
     <section class="flex flex-col lg:flex-row lg:h-128">
-      <div class="flex-1 h-64 lg:h-full mens bg-center lg:bg-cover">
+      <div class="flex-1 h-64 lg:h-full mens bg-center bg-cover">
         <div class="flex w-full h-64 lg:h-full items-center justify-center">
             <router-link :to="{ name: 'men' }">
               <button class="bg-blue p-4 rounded text-white hover:bg-blue-light">Men's Lifegroup</button>
             </router-link>
         </div>
       </div>
-      <div class="flex-1 h-64 lg:h-full womens bg-center lg:bg-cover">
+      <div class="flex-1 h-64 lg:h-full womens bg-center bg-cover">
         <div class="flex w-full h-64 lg:h-full items-center justify-center">
             <router-link :to="{ name: 'women' }">
               <button class="bg-blue p-4 rounded text-white hover:bg-blue-light">Women's Lifegroup</button>

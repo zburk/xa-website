@@ -33,7 +33,7 @@
         <div class="flex flex-col mx-10 lg:mx-0">
           <h2 class="flex-1 text-center py-24">What We're Studying</h2>
 
-          <p class="flex-1 leading-normal">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p class="flex-1 leading-normal">Coming soon for Fall 2019!</p>
         </div>
       </div>
     </div>

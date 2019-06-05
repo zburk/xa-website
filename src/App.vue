@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-    <app-nav></app-nav>
+    <app-nav class="lg:pin-t lg:absolute w-full"></app-nav>
     <router-view
-      class="lg:pin-t absolute router-view w-full"
+      class="router-view w-full"
     ></router-view>
+    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
 import AppNav from './components/AppNav.vue'
+import AppFooter from './components/AppFooter.vue'
 
 export default {
   name: 'app',
   components: {
-    AppNav
+    AppNav,
+    AppFooter
   }
 }
 </script>

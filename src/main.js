@@ -4,8 +4,16 @@ import App from './App.vue'
 import '@/assets/css/tailwind.css'
 import routes from './routes';
 
-import upperFirst from 'lodash/upperFirst'
-import camelCase from 'lodash/camelCase'
+import upperFirst from 'lodash/upperFirst';
+import camelCase from 'lodash/camelCase';
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+library.add(faFacebookSquare, faInstagram);
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 const requireComponent = require.context(
   // The relative path of the components folder

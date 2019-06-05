@@ -11,6 +11,7 @@
         <li class="py-3 lg:py-0"><router-link :to="{ name: 'men' }" class="text-black">Men</router-link></li>
         <li class="py-3 lg:py-0"><router-link :to="{ name: 'women' }" class="text-black">Women</router-link></li>
         <li class="py-3 lg:py-0"><router-link :to="{ name: 'give' }" class="text-black">Give</router-link></li>
+        <li class="py-3 lg:py-0"><router-link :to="{ name: 'resources' }" class="text-black">Resources</router-link></li>
       </ul>
     </div>
   </div>
