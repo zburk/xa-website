@@ -17,6 +17,9 @@
           <textarea class="bg-grey-darker appearance-none border-2 border-grey-darker rounded w-full py-2 px-4 text-white leading-tight focus:outline-none focus:border-blue-light h-32" id="name" name="text" type="text" placeholder="Message"></textarea>
         </div>
       </div>
+
+      <input type="hidden" name="form-name" value="get-connected" />
+
       <div class="flex justify-center">
         <button class="bg-blue hover:bg-blue-light focus:shadow-outline focus:outline-none text-white py-4 px-10 rounded" type="submit">
           Send
