@@ -64,7 +64,7 @@ export default {
         {
           name: 'Madelyn Smith',
           headshot: '/img/MadelynSmith-Headshot.jpg',
-          text: ''
+          text: 'My name is Madelyn Smith and I am a rising Junior at UNC Chapel Hill. I am from Lenoir, North Carolina, studying Political Science with minors in Spanish and Women and Gender Studies. Upon coming to UNC, I found a strong Christian community in Chi Alpha. As worship leader, my favorite part of Chi Alpha would be worshiping God through music. The passion for Christ that both the staff and my fellow students possess has inspired me to grow closer to the Lord while providing me with support, advice, and love while figuring out what that means for me, individually. Chi Alpha has provided me with opportunities I never thought possible, such as going on two international missions trips to Africa and Ecuador, which completely changed the trajectory of my future by opening my eyes to the Lord\'s calling on my life as an international missionary. I believe that Chi Alpha is a spiritual sanctuary where college students have an opportunity like no other to truly find the Lord and in one of the most authentic Christian communities I have ever been a part of.'
         },
         {
           name: 'Mackenzie Harris',

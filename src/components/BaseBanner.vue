@@ -23,7 +23,7 @@ export default {
     font-size: 4rem;
     transform: rotate(-10deg);
   }
-  
+
   div {
     /*height: 25rem;*/
   }
