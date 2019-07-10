@@ -98,7 +98,7 @@ export default {
           than who I thought people wanted me to be.`,
           school: 'University of North Carolina at Chapel Hill',
           member: {
-            headshot: ''
+            headshot: '/img/ZachBurk-Headshot.jpg'
           }
         }
       ]
@@ -159,7 +159,7 @@ export default {
         text: 'Hi! I\'m Amber. Going into Carolina, I was hoping for a chance to escape from my ties to God and carve out my own identity through the "typical" college experience. I had no interest in trying to maintain the "good Christian" facade that I had been using for so long, and had grown frustrated and annoyed with people viewing me in such a way. Chi Alpha allowed for me to see and experience the realness of my spiritual walk: messy, frustrating, confusing, and HUMAN. I was connected with believers who were just as imperfect as I was, yet understood the perfect and merciful nature of God. Through my new family, I have learned to discard the lies that had been keeping me from God and appreciate the beauty of the journey, along with calling that He has over my life.',
         school: 'University of North Carolina at Chapel Hill',
         member: {
-          headshot: ''
+          headshot: '/img/AmberEllerbe-Headshot.jpg'
         }
       });
     }
@@ -176,7 +176,7 @@ export default {
         I’m so thankful that God allows me to continue doing this life-changing work!`,
         school: 'University of North Carolina at Chapel Hill',
         member: {
-          headshot: '/img/SethandBrooke.jpg'
+          headshot: '/img/SethCollins-Headshot.jpg'
         }
       });
     }
@@ -213,7 +213,7 @@ export default {
         text: `I'm Kayla. Before I joined Chi Alpha I thought that living God's will for my life meant striving for perfection. Through Family Group and discipleship in Chi Alpha I learned that perfection is not something I can create, but rather something that God is. By walking closer with Him, I am being increasingly transformed. I don't need to concoct my own perfect world, but rather give up mine so I can join God in His.`,
         school: 'University of North Carolina at Chapel Hill',
         member: {
-          headshot: ''
+          headshot: '/img/KaylaPiccirillo-Headshot.jpg'
         }
       });
     }
@@ -226,7 +226,8 @@ export default {
         As I’ve felt the Lord specifically lead me to fulfill this call in marketplace as a middle and high school teacher, it’s my privilege to give back to the ministry that so blessed my life by empowering those who are called to the college campus to be the hands and feet of Christ to students from all around the world. It’s encouraging to know that God his positioning his people to minister to the next generation of leaders and influencers in such a strategic place as the college campus and during a time of life that is so consequential to most. The harvest is ready, it’s time to support the laborers in the field!`,
         school: 'Virginia Commonwealth University',
         member: {
-          headshot: ''
+          headshot: '/img/ChrisWebb-Headshot.jpg',
+          borderColor: 'yellow'
         }
       });
     }
@@ -241,7 +242,8 @@ export default {
         As a teacher and coach at a small university in North Georgia, I get to spend a lot of time with students who are not only trying to find themselves, but searching for truth and understanding. They want to connect in some way. They need community. I see what they are looking for, but as a Christian teacher and coach, I know the answer isn’t just truth, understanding, connection, or community. It’s Jesus. HIS truth. Connecting with a community that shares His love. Understanding He is what we need most to discover our purpose and find direction.  So, Why Chi Alpha? Why do I choose to invest? Because Jesus. Jesus! I want more college students to have the opportunity to know Him! When I was first introduced to Chi Alpha and learned of their vision and mission, I knew immediately that I wanted to help in some way.  It is my hope to one day see Chi Alpha on every college and university campus... even the small ones located in obscure places!`,
         school: 'Reinhardt University',
         member: {
-          headshot: ''
+          headshot: '/img/KelleyHorton-Headshot.jpg',
+          borderColor: 'orange'
         }
       });
     }
@@ -256,7 +258,7 @@ export default {
         I support Chi Alpha today because I know the unmistakable effect it had on my life and on my relationship with Christ. If Chi Alpha had not found me, I honestly don't know where I'd be today in my faith. I'd like to think I'd still be following Jesus, but who knows? I know there are so many others like me who are looking for Christian community as they head to college but need to be pursued. And there are countless others who do not know Jesus but who are also seeking community of some kind. They need to be pursued too. My wife Kate and I are thankful for the opportunity to support Chi Alpha missionaries on multiple college campuses because we know and believe that God is using this ministry to raise up disciples of Christ who will live out the Great Commission for the rest of their lives.`,
         school: '',
         member: {
-          headshot: ''
+          headshot: '/img/Andy-Headshot.jpg'
         }
       });
     }
@@ -306,7 +308,7 @@ export default {
         reaching the youth of our generation.`,
         school: '',
         member: {
-          headshot: ''
+          headshot: '/img/RichardSherry-Headshot.jpg'
         }
       });
     }
@@ -322,7 +324,7 @@ export default {
       });
     }
 
-    if (moment().isAfter(moment('2019-07-23', 'YYYY-MM-DD').set('hour', 18))) {
+    if (moment().isAfter(moment('2019-07-26', 'YYYY-MM-DD').set('hour', 18))) {
       this.testimonials.push({
         name: 'Michael',
         text: `Growing up, my parents, my older brother, and I would go to church together,
@@ -343,6 +345,17 @@ export default {
         time. If I want to see how God used Chi Alpha to change my life, it’s easy. I just
         have to look at my older brother. Spiritually we were the same leaving high
         school, but sadly today, he is far from God. The difference...Chi Alpha`,
+        school: '',
+        member: {
+          headshot: '/img/Michael-Headshot.jpg'
+        }
+      });
+    }
+
+    if (moment().isAfter(moment('2019-07-27', 'YYYY-MM-DD').set('hour', 18))) {
+      this.testimonials.push({
+        name: 'Marisa',
+        text: ``,
         school: '',
         member: {
           headshot: ''
