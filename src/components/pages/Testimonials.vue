@@ -26,13 +26,17 @@
       </section>
     </div>
 
-    <!-- Paypal button  -->
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="donation-button pin-b pin-r fixed m-10" :class="{ 'show-button': showDonationButton }">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="39VYWBX7ZN2RA">
-      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
+    <div class="donation-button flex flex-row w-full justify-between items-center px-10 bg-white" :class="{ 'show-button': showDonationButton, 'fixed pin-b pin-r': pinToBottom }">
+      <img src="/img/T-ShirtDesign.jpg" width="100px">
+      <p>We are offering a free T-Shirt to donors who give $25 or more!</p>
+      <!-- Paypal button  -->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="39VYWBX7ZN2RA">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+    </div>
   </div>
 </template>
 
@@ -44,6 +48,7 @@ export default {
   name: 'Testimonials',
   data() {
     return {
+      pinToBottom:        true,
       showDonationButton: false,
       testimonials: [
         {
@@ -126,8 +131,27 @@ export default {
         'w-12 h-1': true,
         ['bg-' + color]: true
       }
-    }
+    },
+    handleScroll: function () {
+      var body = document.body;
+      var html = document.documentElement;
+
+      var height = Math.max( body.scrollHeight, body.offsetHeight,
+                       html.clientHeight, html.scrollHeight, html.offsetHeight );
+
+			if (window.scrollY + window.innerHeight > height - 72) {
+        this.pinToBottom = false;
+			} else {
+        this.pinToBottom = true;
+      }
+		}
   },
+  created: function () {
+		window.addEventListener('scroll', this.handleScroll);
+	},
+  destroyed: function () {
+		window.removeEventListener('scroll', this.handleScroll);
+	},
   mounted() {
     inView(this.$refs['testimonials'], () => {
       this.showDonationButton = true;
@@ -278,7 +302,7 @@ export default {
         is no sweeter freedom than being myself among my XA family.`,
         school: 'University of North Carolina at Chapel Hill',
         member: {
-          headshot: ''
+          headshot: '/img/EmilyShuman-Headshot.jpg'
         }
       });
     }
