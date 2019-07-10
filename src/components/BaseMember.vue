@@ -25,7 +25,7 @@ export default {
 
       return {
         'p-1 rounded-full border-4 outermost': true,
-        ['border-blue-light']: true
+        ['border-' + color + '-light']: true
       }
     }
   }
