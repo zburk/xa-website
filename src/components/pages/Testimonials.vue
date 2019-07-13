@@ -5,7 +5,7 @@
         <base-banner
           class="h-128"
           text="Testimonials"
-          img="https://via.placeholder.com/2000x1200"
+          img="/img/testimonials.jpg"
         ></base-banner>
       </div>
     </div>
