@@ -90,7 +90,7 @@ export default {
           All in all, I experienced God in big and small ways at XA. And it helped lay the foundation for the amazing relationship that I enjoy with him today!`,
           school: 'University of North Carolina at Chapel Hill',
           member: {
-            headshot: ''
+            headshot: '/img/NdabeMahluza-Headshot.jpg'
           }
         },
         {
@@ -215,7 +215,7 @@ export default {
         who accepted me as the silly, energetic girl that I am.`,
         school: 'University of North Carolina at Chapel Hill',
         member: {
-          headshot: ''
+          headshot: '/img/Brigitte-Headshot.jpg'
         }
       });
     }
@@ -223,10 +223,10 @@ export default {
     if (moment().isAfter(moment('2019-07-18', 'YYYY-MM-DD').set('hour', 18))) {
       this.testimonials.push({
         name: 'Danny Dana-Lê',
-        text: ``,
+        text: `I had struggled with chronic depression for a majority of my life. Family life wasn’t great, friendships were shallow, and I had no hope otherwise. I came to UNC with little direction, but I remember the first time I was invited to Chi Alpha. I came and I went. And it was during my freshman year that I would attempt suicide by leaping from a building. But that is when God came into my life in a supernatural way. Suddenly, I found that God had a purpose for me. I then started going to Chi Alpha more frequently, asking questions, and finding fulfillment in my new relationship with God. It was shortly, thereafter, that I became a leader and started my own small group. God then flooded my life with deep relationships, many of whom later became Chi Alpha leaders as well. Now I am a middle school teacher, using my gifts to bring light to adolescents struggling with their own emotions. And here’s the kicker: that very person who invited me to Chi Alpha the first time is now my loving wife, and we are living our lives for the Kingdom in Lansing, Michigan for the next five years. God is good! And I have Chi Alpha to thank for introducing me.`,
         school: 'University of North Carolina at Chapel Hill',
         member: {
-          headshot: ''
+          headshot: '/img/DannyDanale-Headshot.jpg'
         }
       });
     }
