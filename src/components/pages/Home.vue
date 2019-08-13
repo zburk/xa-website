@@ -16,6 +16,18 @@
 
     <section class="pb-20">
       <div class="container mx-auto">
+        <h2 class="text-center py-20">Come Find Us on Campus!</h2>
+        <Timeline
+          :timeline-items="dataTimeline"
+          :message-when-no-items="messageWhenNoItems"
+          :uniqueTimeline="true"
+          order="asc"
+        />
+      </div>
+    </section>
+
+    <section class="pb-20">
+      <div class="container mx-auto">
         <h2 class="text-center py-20">Who We Are</h2>
         <div class="flex flex-col lg:flex-row px-4 lg:px-0">
           <div class="flex-1 lg:px-32 text-grey-darkest">
@@ -60,10 +72,46 @@
 
 <script>
 import GetConnectedForm from '../GetConnectedForm'
+import Timeline from "timeline-vuejs";
 
 export default {
   name: 'Home',
-  components: { GetConnectedForm }
+  components: { GetConnectedForm, Timeline },
+  data: () => ({
+    messageWhenNoItems: "There arent items",
+    dataTimeline: [
+      {
+        from: new Date(2019, 8, 18),
+        title: 'Fall Fest | Sunday (8/18) at 8pm',
+        description:
+          'Join us Sunday evening at Hooker Fields!'
+      },
+      {
+        from: new Date(2019, 8, 19),
+        title: 'S\'Morrison | Monday (8/19) at 8pm',
+        description:
+          'Stop by Morrison Monday evening around the grills to grab a free s\'more!'
+      },
+      {
+        from: new Date(2019, 8, 21),
+        title: 'Icepops | Tuesday (8/20) at 10am - 2pm',
+        description:
+          'We\'ll be in the pit giving out free icepops during the day! Stop by to cool off.'
+      },
+      {
+        from: new Date(2019, 8, 21),
+        title: 'Family Group | Wednesday (8/21) at 7pm - 8:30pm',
+        description:
+          'Family group is our weekly gathering. We\'ll meet up in Union room 3209 for a time of fellowship, snacks, worship and challenge. The first meeting of the year will include interactive games, prizes and a chance to meet new friends and learn about Chi Alpha.'
+      },
+      {
+        from: new Date(2019, 8, 23),
+        title: 'Welcome Beach BBQ | Friday (8/23) at 6pm - 8:30pm',
+        description:
+          'Our annual welcome cookout at the volleyball court between Ruffin & Grimes dorms. Free food, music, prizes, and games with a beach theme. Come with your friends and meet new friends. All are welcome!'
+      }
+    ]
+  })
 }
 </script>
 
@@ -74,5 +122,9 @@ export default {
 
   .womens {
     background-image: url('/img/girls_getaway.jpg');
+  }
+
+  .wrapper-timeline {
+    width: 550px;
   }
 </style>

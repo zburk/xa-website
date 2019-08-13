@@ -39,4 +39,12 @@ export default {
     color: #4B9CD3;
     font-size: 3.5rem;
   }
+
+  p.year {
+    visibility: hidden;
+  }
+
+  h3.month-item {
+    visibility: hidden;
+  }
 </style>

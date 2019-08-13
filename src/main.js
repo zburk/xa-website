@@ -11,6 +11,8 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
+import '../node_modules/timeline-vuejs/dist/timeline-vuejs.css';
+
 library.add(faFacebookSquare, faInstagram);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
