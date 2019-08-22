@@ -11,7 +11,8 @@
     </div>
 
     <div class="flex">
-      <h2 class="flex-1 text-center py-24">Mondays at 6:30 in Rams Village 5</h2>
+      <h2 class="flex-1 text-center py-24">Mondays at 7:00 in Union 3509</h2>
+      <h2 class="flex-1 text-center py-24">Tuesdays at 7:00 in Grimes</h2>
     </div>
 
     <div class="container mx-auto mb-24">
@@ -28,7 +29,7 @@
       </div>
     </div>
 
-    <div class="bg-grey-lighter">
+    <div class="bg-grey-lighter" style="display: none;">
       <div class="container mx-auto pb-24">
         <div class="flex flex-col mx-10 lg:mx-0">
           <h2 class="flex-1 text-center py-24">What We're Studying</h2>
