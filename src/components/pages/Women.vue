@@ -12,7 +12,7 @@
 
     <div class="flex">
       <h2 class="flex-1 text-center py-24">Mondays at 7:00 in Union 3509</h2>
-      <h2 class="flex-1 text-center py-24">Tuesdays at 7:00 in Grimes</h2>
+      <h2 class="flex-1 text-center py-24">Tuesdays at 7:00 in Manly</h2>
     </div>
 
     <div class="container mx-auto mb-24">
@@ -60,7 +60,7 @@ export default {
         {
           name: 'Tynsley Gilchrist',
           headshot: '/img/TynsleyGilchrist-Headshot.jpg',
-          text: ''
+          text: 'My name is Tynsley Gilchrist and I am a Senior at UNC Chapel Hill, majoring in Human Development and Family Studies. A friend from my hometown had been involved in Chi Alpha before I came to UNC and introduced me to the group when I arrived on campus. When she told me about Chi Alpha, I was eager to meet a group of fellow Christians who would be a positive community for me as I embarked on a new journey. At my first Chi Alpha event, I immediately felt welcomed and accepted. Each person I talked to exemplified Christ’s love and I quickly established deep friendships with the genuine members of this group. Since then, Chi Alpha has given me the opportunity to fellowship with others, learn more about the bible, serve on the worship team, go on my first mission trip, and continue to grow in my personal relationship with Jesus. Through Chi Alpha, I discovered that God’s plan for my life is to share the gospel with others through ministry. I am excited to serve as a student leader and I am looking forward to embracing what the Lord has in store for our campus.'
         },
         {
           name: 'Madelyn Smith',
@@ -70,7 +70,7 @@ export default {
         {
           name: 'Mackenzie Harris',
           headshot: '/img/MackenzieHarris-Headshot.jpg',
-          text: ''
+          text: 'When I started at UNC, I joined many different clubs. Though I didn’t know it at the time, I was searching for community and a place to belong and grow in my faith. I had good Christian friends and strong connections in high school, and I was looking for that at UNC. I found that in Chi Alpha. Through life groups, I found friends who support me and help me grow in God.'
         }
       ]
     }
