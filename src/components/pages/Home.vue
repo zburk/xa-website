@@ -16,18 +16,6 @@
 
     <section class="pb-20">
       <div class="container mx-auto">
-        <h2 class="text-center py-20">Come Find Us on Campus!</h2>
-        <Timeline
-          :timeline-items="dataTimeline"
-          :message-when-no-items="messageWhenNoItems"
-          :uniqueTimeline="true"
-          order="asc"
-        />
-      </div>
-    </section>
-
-    <section class="pb-20">
-      <div class="container mx-auto">
         <h2 class="text-center py-20">Who We Are</h2>
         <div class="flex flex-col lg:flex-row px-4 lg:px-0">
           <div class="flex-1 lg:px-32 text-grey-darkest">
@@ -72,11 +60,10 @@
 
 <script>
 import GetConnectedForm from '../GetConnectedForm'
-import Timeline from "timeline-vuejs";
 
 export default {
   name: 'Home',
-  components: { GetConnectedForm, Timeline },
+  components: { GetConnectedForm },
   data: () => ({
     messageWhenNoItems: "There arent items",
     dataTimeline: [

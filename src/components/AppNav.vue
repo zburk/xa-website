@@ -13,6 +13,7 @@
         <li class="py-3 lg:py-0"><router-link :to="{ name: 'testimonials' }" class="text-black">Testimonials</router-link></li>
         <li class="py-3 lg:py-0"><router-link :to="{ name: 'give' }" class="text-black">Give</router-link></li>
         <li class="py-3 lg:py-0"><router-link :to="{ name: 'resources' }" class="text-black">Resources</router-link></li>
+        <li class="py-3 lg:py-0"><a href="https://uncchialpha.podbean.com" class="text-black">Podcast</a></li>
       </ul>
     </div>
   </div>
