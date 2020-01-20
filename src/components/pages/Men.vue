@@ -12,6 +12,7 @@
 
     <div class="flex">
       <h2 class="flex-1 text-center py-24">Tuesdays at 7:00 in Union 2511</h2>
+      <h2 class="flex-1 text-center py-24">Thursdays at 7:00 at Bottom of Lenoir</h2>
     </div>
 
     <div class="container mx-auto mb-24">
