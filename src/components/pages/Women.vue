@@ -34,7 +34,7 @@
         <div class="flex flex-col mx-10 lg:mx-0">
           <h2 class="flex-1 text-center py-24">What We're Studying</h2>
 
-          <p class="flex-1 leading-normal">Coming soon for Fall 2019!</p>
+          <p class="flex-1 leading-normal">Coming soon for Fall 2020!</p>
         </div>
       </div>
     </div>
@@ -43,7 +43,7 @@
 
 <script>
 export default {
-  name: 'Men',
+  name: 'Women',
   data() {
     return {
       leaders: [
