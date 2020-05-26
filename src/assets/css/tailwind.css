@@ -5,6 +5,6 @@
     src: url("./fonts/Underland-Script/Underland.otf") format("opentype");
 }
 
-@tailwind preflight;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -13,7 +13,7 @@
     <section class="my-10 pb-10">
       <div class="container mx-auto">
         <div class="flex flex-col lg:flex-row">
-          <div class="flex-1 pl-32 lg:px-32 lg:-mr-32 mt-10 z-40 text-grey-darkest">
+          <div class="flex-1 pl-32 lg:px-32 lg:-mr-32 mt-10 z-40 text-gray-900">
             <p class="rounded p-8 leading-normal devoted-disciples">
               Our vision for Chi Alpha is to learn together to be Devoted Disciples of Jesus who build Deep Friendships with those around us and act as Deliberate Servants of our campus, community, and world.
             </p>
@@ -25,13 +25,13 @@
       </div>
     </section>
 
-    <section class="py-20 bg-grey-lighter">
+    <section class="py-20 bg-gray-lighter">
       <div class="container mx-auto">
         <div class="flex flex-col lg:flex-row lg:px-32 items-center">
           <div class="flex-none">
             <img src="/img/quelf.jpg" class="rounded">
           </div>
-          <div class="flex-grow text-grey-darkest">
+          <div class="flex-grow text-gray-900">
             <p class="rounded p-8 mt-24 lg:mt-0 lg:ml-6 leading-normal bg-blue-lighter">
               In Chi Alpha, we believe that no one was meant to live this life alone. We have lots of opportunities to hang out together, learn together, and play together. Check out the Home page for more info about our events and follow us on <a href="https://www.facebook.com/XAatUNC/" target="_blank" class="text-blue hover:underline">Facebook</a> and <a href="https://www.instagram.com/uncchialpha/" target="_blank" class="text-blue hover:underline">Instagram</a> to see what’s up.
             </p>
@@ -43,7 +43,7 @@
     <section class="pb-20">
       <div class="container mx-auto leading-normal">
         <div class="mx-10 lg:mx-0">
-          <h2 class="text-center py-20">What We Believe</h2>
+          <h2 class="text-center py-20 text-6xl">What We Believe</h2>
           <p>Our core beliefs in a nutshell are: (scroll down for “The Long Version”)</p>
           <ol>
             <li class="my-6">God is real.</li>

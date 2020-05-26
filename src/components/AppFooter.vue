@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row bg-blue py-5 justify-around">
+  <div class="flex flex-row bg-blue-500 py-5 justify-around">
     <a href="https://www.facebook.com/XAatUNC/" target="_blank">
       <font-awesome-icon
         :icon="['fab', 'facebook-square']"

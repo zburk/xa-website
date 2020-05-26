@@ -10,18 +10,18 @@
       </div>
     </div>
 
-    <div class="flex">
-      <h2 class="flex-1 text-center py-24">Tuesdays at 7:00 in Union 2511</h2>
-      <h2 class="flex-1 text-center py-24">Thursdays at 7:00 at Bottom of Lenoir</h2>
+    <div class="flex px-10">
+      <h2 class="flex-1 text-center py-24 text-4xl">Tuesdays at 7:00 in Union 2511</h2>
+      <h2 class="flex-1 text-center py-24 text-4xl">Thursdays at 7:00 at Bottom of Lenoir</h2>
     </div>
 
     <div class="container mx-auto mb-24">
-      <div class="flex flex-col lg:flex-row items-center mb-10" v-for="(member, index) in leaders" :key="index">
+      <div class="flex flex-col lg:flex-row items-center mb-10 py-10" v-for="(member, index) in leaders" :key="index">
         <div class="flex-none px-6">
           <base-member
             :member="member">
           </base-member>
-          <h3 class="text-center pt-3 text-grey-darkest font-semibold">{{ member.name }}</h3>
+          <h3 class="text-center pt-3 text-gray-900 font-semibold">{{ member.name }}</h3>
         </div>
         <div class="flex-grow mt-4 lg:-mt-10 mx-10 lg:mx-0 leading-normal">
           {{ member.text }}
@@ -29,7 +29,7 @@
       </div>
     </div>
 
-    <div class="bg-grey-lighter" style="display: none;">
+    <div class="bg-gray-lighter" style="display: none;">
       <div class="container mx-auto pb-24">
         <div class="flex flex-col mx-10 lg:mx-0">
           <h2 class="flex-1 text-center py-24">What We're Studying</h2>

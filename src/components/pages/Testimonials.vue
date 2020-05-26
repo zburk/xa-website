@@ -19,7 +19,7 @@
         </base-member>
         <div class="mb-5">
           <h1 class="uppercase font-bold my-3 text-base font-sans">{{ testimonial.name }}</h1>
-          <h2 class="text-grey-darker my-1 text-base font-sans font-normal" v-if="testimonial.school">{{ testimonial.school }}</h2>
+          <h2 class="text-gray-800 my-1 text-base font-sans font-normal" v-if="testimonial.school">{{ testimonial.school }}</h2>
           <div :class="classObject(testimonial.school)"></div>
         </div>
         <p v-html="testimonial.text"></p>
@@ -129,7 +129,7 @@ export default {
 
       return {
         'w-12 h-1': true,
-        ['bg-' + color]: true
+        ['bg-' + color + '-500']: true
       }
     },
     handleScroll: function () {
@@ -376,16 +376,16 @@ export default {
       });
     }
 
-    if (moment().isAfter(moment('2019-07-27', 'YYYY-MM-DD').set('hour', 18))) {
-      this.testimonials.push({
-        name: 'Marisa',
-        text: ``,
-        school: '',
-        member: {
-          headshot: ''
-        }
-      });
-    }
+    // if (moment().isAfter(moment('2019-07-27', 'YYYY-MM-DD').set('hour', 18))) {
+    //   this.testimonials.push({
+    //     name: 'Marisa',
+    //     text: ``,
+    //     school: '',
+    //     member: {
+    //       headshot: ''
+    //     }
+    //   });
+    // }
   }
 }
 </script>

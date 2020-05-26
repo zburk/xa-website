@@ -30,7 +30,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "prerender-spa-plugin": "^3.2.1",
-    "tailwindcss": "^0.7.4",
+    "tailwindcss": "^1.4.6",
     "vue-cli-plugin-prerender-spa": "^1.1.5",
     "vue-template-compiler": "^2.5.21"
   },

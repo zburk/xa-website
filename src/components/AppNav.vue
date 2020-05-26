@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col lg:flex-row bg-blue lg:bg-transparent pt-5 align-top">
+  <div class="flex flex-col lg:flex-row bg-blue-500 lg:bg-transparent pt-5 align-top">
     <div class="flex-1 pl-5">
       <a href="/"><span class="text-xl text-white">Chi Alpha at UNC</span></a>
     </div>
