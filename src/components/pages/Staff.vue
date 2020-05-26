@@ -114,9 +114,7 @@ export default {
           title: '',
           text: `Brooke was born and raised in the plains of Kansas and will always have a soft spot for the Sunflower State. She attended Central Bible College (now Evangel University) and earned a B.A. in Preaching and Evangelism. Which means she loves public speaking and finding ways to help people connect with God. She has worked with Chi Alpha at Georgetown University, the University of Virginia, Virginia Commonwealth University, and Yale University prior to coming to UNC-Chapel Hill.<br><br>
 
-            Somewhere along the way she met Seth and they got married in 2014. Most of their major relationship milestones have occurred at Chi Alpha events. You should ask her about how they met. Brooke loves watching movies and reading Wonder Woman comic books. She’s also a big baseball fan. One of her life goals is to see a game at every MLB ballpark.<br><br>
-
-            In 2014, Seth and Brooke got married and both continued serving simultaneously at UVA and VCU.  In 2015, both Seth and Brooke moved to New Haven to help pioneer Chi Alpha at Yale University. In June 2018, Seth and Brooke moved to Chapel Hill to work with Chi Alpha at UNC.`
+            Somewhere along the way she met Seth and they got married in 2014. Most of their major relationship milestones have occurred at Chi Alpha events. You should ask her about how they met. Brooke loves watching movies and reading Wonder Woman comic books. She’s also a big baseball fan. One of her life goals is to see a game at every MLB ballpark.`
         },
         {
           name: 'Emily Shuman',
