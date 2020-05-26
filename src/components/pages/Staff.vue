@@ -10,8 +10,8 @@
       </div>
     </div>
 
-    <div class="flex flex-col lg:flex-row flex-wrap mx-auto justify-center">
-      <div class="mt-20 m-10" v-for="(member, index) in staff1" :key="index">
+    <div class="max-w-screen-xl flex flex-col lg:flex-row flex-wrap mx-auto justify-center">
+      <div class="mt-20 m-10" v-for="(member, index) in staff" :key="index">
         <base-member
           :member="member"
           :selectedMember="selectedMember"
@@ -21,25 +21,6 @@
         <div class="lg:hidden">
           <h2 class="text-3xl my-3">{{ member.name }}</h2>
           <h3 class="font-sans text-black text-xl my-3" v-if="member.title">
-            {{ member.title }}
-          </h3>
-
-          <p class="leading-normal">{{ member.text }}</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="flex flex-col lg:flex-row flex-wrap mx-auto justify-center">
-      <div class="m-10" v-for="(member, index) in staff2" :key="index">
-        <base-member
-          :member="member"
-          :selectedMember="selectedMember"
-          v-on:select="selectedMember = $event">
-        </base-member>
-
-        <div class="lg:hidden">
-          <h2 class="text-3xl my-3">{{ member.name }}</h2>
-          <h3 class="font-sans text-black text-xl m6-3" v-if="member.title">
             {{ member.title }}
           </h3>
 
@@ -72,7 +53,7 @@ export default {
   data() {
     return {
       selectedMember: {},
-      staff1: [
+      staff: [
         {
           name: 'Joe Newell',
           headshot: '/img/JoeNewell-Headshot.jpg',
@@ -104,9 +85,7 @@ export default {
             Seth completed his internship with Chi Alpha at the University of Virginia in Charlottesville in 2013 and served on staff for 2 years. During those 2 years, he also served as Chi Alpha Interim Director at Virginia Commonwealth University in Richmond, VA.<br><br>
 
             In 2014, Seth and Brooke got married and both continued serving simultaneously at UVA and VCU.  In 2015, both Seth and Brooke moved to New Haven to help pioneer Chi Alpha at Yale University. In June 2018, Seth and Brooke moved to Chapel Hill to work with Chi Alpha at UNC.`
-        }
-      ],
-      staff2: [
+        },
         {
           name: 'Brooke Collins',
           headshot: '/img/BrookeCollins-Headshot.jpg',
@@ -134,7 +113,7 @@ export default {
 
             I'm really excited to become a Tar Heel fan and cheering them on! Besides that I am passionate about the Kansas City Chiefs and the Kansas City Royals! I also love being out in nature and experiencing God's creation. I look forward to getting to know you. I would love to talk about anything really. I would love to get to know you more!`
         }
-      ]
+      ],
     }
   },
   methods: {
@@ -143,7 +122,7 @@ export default {
     }
   },
   created() {
-    this.selectedMember = this.staff1[0];
+    this.selectedMember = this.staff[0];
   }
 }
 </script>
