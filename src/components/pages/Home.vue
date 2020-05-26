@@ -29,7 +29,7 @@
       </div>
     </section>
 
-    <section class="py-20 bg-gray-200 flex flex-row justify-center text-blue-500 text-2xl leading-loose">
+    <section class="py-20 bg-gray-200 flex flex-row justify-center text-blue-600 text-2xl leading-loose">
       <span class="block w-1/2 text-center">We use the Greek name to reflect the Apostle Paul's words in 2 Corinthians 5:20. The X (Chi) and A (Alpha) are abbreviations for "Christ's ambassadors".</span>
     </section>
 
