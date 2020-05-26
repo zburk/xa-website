@@ -65,7 +65,7 @@ export default {
   name: 'Home',
   components: { GetConnectedForm },
   data: () => ({
-    messageWhenNoItems: "There arent items",
+    messageWhenNoItems: "There aren't items",
     dataTimeline: [
       {
         from: new Date(2019, 8, 18),
