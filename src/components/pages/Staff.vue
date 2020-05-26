@@ -59,14 +59,14 @@ export default {
           headshot: '/img/JoeNewell-Headshot.jpg',
           img: '/img/JoeNewell.jpg',
           title: 'Campus Pastor',
-          text: 'Joe is in his tenth year with Chi Alpha. He currently directs XA along with his wife Mishael. He is a graduate of Hampden-Sydney College (History), earning his ordination through Global University and the Assemblies of God. He and Mishael met as single missionaries in Costa Rica in 1996 and celebrated their 20th anniversary in March. They have two children — Josiah(14) and Elijah(9). Joe loves sports — especially the Cubs — history and art.'
+          text: 'Joe is in his tenth year with Chi Alpha. He currently directs XA along with his wife Mishael. He is a graduate of Hampden-Sydney College (History), earning his ordination through Global University and the Assemblies of God. He and Mishael met as single missionaries in Costa Rica in 1996 and celebrated their 20th anniversary in March. They have two children — Josiah(16) and Elijah(11). Joe loves sports — especially the Cubs — history and art.'
         },
         {
           name: 'Mishael Newell',
           headshot: '/img/MishaelNewell-Headshot.jpg',
           img: '/img/JoeNewell.jpg',
           title: '',
-          text: 'Mishael is an ordained minister with the Assemblies of God. She and her husband Joe direct Chi Alpha at UNC. They met as single missionaries in Costa Rica and were married in 1998. Prior to coming to UNC in 2011 Mishael served overseas as a missionary for 21 years, ministering in more than 40 countries around the world. Born and raised in Tucson, Arizona she loves hot weather, saving money, and leading students in missions. She and Joe have two sons: Josiah (15) and Elijah (10).'
+          text: 'Mishael is an ordained minister with the Assemblies of God. She and her husband Joe direct Chi Alpha at UNC. They met as single missionaries in Costa Rica and were married in 1998. Prior to coming to UNC in 2011 Mishael served overseas as a missionary for 21 years, ministering in more than 40 countries around the world. Born and raised in Tucson, Arizona she loves hot weather, saving money, and leading students in missions. She and Joe have two sons: Josiah (16) and Elijah (11).'
         },
         {
           name: 'David Lao',
