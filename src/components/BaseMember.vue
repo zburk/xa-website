@@ -1,7 +1,7 @@
 <template>
   <div :class="classObject(member.borderColor)">
     <div :style="styleObject(member)" class="rounded-full staff-member bg-center" @click="$emit('select', member)">
-      <div class="h-full lg:hover:bg-blue-500 rounded-full" :class="{ 'lg:bg-blue-500': selectedMember === member }">
+      <div class="h-full lg:hover:bg-blue-500 cursor-pointer rounded-full" :class="{ 'lg:bg-blue-500': selectedMember === member }">
         <img :src="member.headshot" class="invisible">
       </div>
     </div>
