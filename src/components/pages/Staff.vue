@@ -15,6 +15,7 @@
         <base-member
           :member="member"
           :selectedMember="selectedMember"
+          :hoverable="true"
           v-on:select="selectedMember = $event">
         </base-member>
 
