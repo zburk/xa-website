@@ -4,7 +4,7 @@
       <div class="flex-1">
         <base-banner
           class="h-128"
-          text="Blank"
+          text="Connect"
           img="https://via.placeholder.com/2000x1200"
         ></base-banner>
       </div>
