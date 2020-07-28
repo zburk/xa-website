@@ -159,7 +159,7 @@ export default {
                     }
                 ]
             }
-        }
+        },
         {
             path: '/connect',
             component: Connect,
