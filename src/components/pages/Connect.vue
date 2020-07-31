@@ -1,5 +1,6 @@
 <template>
   <div>
+    <app-nav class="hidden md:block lg:pin-t lg:absolute w-full"></app-nav>
     <div class="flex">
       <div class="flex-1">
         <base-banner
@@ -9,12 +10,18 @@
         ></base-banner>
       </div>
     </div>
+    <app-nav class="md:hidden lg:pin-t lg:absolute w-full"></app-nav>
   </div>
 </template>
 
 <script>
+import AppNav from '@/components/AppNav.vue'
+
 export default {
-  name: 'Connect'
+  name: 'Connect',
+  components: {
+    AppNav
+  },
 }
 </script>
 

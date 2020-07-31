@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <app-nav class="lg:pin-t lg:absolute w-full"></app-nav>
+    <app-nav v-if="!isConnectPage" class="lg:pin-t lg:absolute w-full"></app-nav>
     <router-view
       class="router-view w-full"
     ></router-view>
@@ -17,6 +17,11 @@ export default {
   components: {
     AppNav,
     AppFooter
+  },
+  computed: {
+    isConnectPage() {
+      return this.$route.name === 'connect'
+    }
   }
 }
 </script>
