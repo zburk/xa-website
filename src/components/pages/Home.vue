@@ -14,6 +14,12 @@
       </div>
     </div>
 
+    <section class="py-20 bg-gray-200">
+      <div class="container mx-auto flex items-center justify-center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/zi81EggAN1w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+
     <section class="pb-20">
       <div class="container mx-auto">
         <h2 class="text-center py-20 text-6xl">Who We Are</h2>
