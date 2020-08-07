@@ -10,9 +10,12 @@
       </div>
     </div>
 
-    <div class="flex px-10">
-      <h2 class="flex-1 text-center py-24 text-4xl">Tuesdays at 7:00 in Union 2511</h2>
-      <h2 class="flex-1 text-center py-24 text-4xl">Thursdays at 7:00 at Bottom of Lenoir</h2>
+    <div class="flex flex-col my-20 mx-10 justify-center items-center">
+      <ul class="flex-1">
+        <li class="py-3 text-xl">Monday 7 PM @ Location TBD with Parker Benfield and Tyler Brotton</li>
+        <li class="py-3 text-xl">Tuesday 8 PM @ Hooker Fields with Seth Collins and Stephen Kenney</li>
+        <li class="py-3 text-xl">Thursday 7 PM @ Bell Tower with David Lao and Tom Dix</li>
+      </ul>
     </div>
 
     <div class="container mx-auto mb-24">
@@ -47,11 +50,6 @@ export default {
   data() {
     return {
       leaders: [
-        {
-          name: 'Christopher Piccirillo',
-          headshot: '/img/ChristopherPicc-Headshot.jpg',
-          text: 'What I learned most from Chi Alpha is the importance of community in the Christian life. I came to college as a super young and naïve Christian with the notion that I didn’t really need a community to follow God. But gradually through the persistent outreach of friends and mentors at Chi Alpha I began to realize that I was wrong and that God created me for community too. God showed me through Chi Alpha that when I was saved I became just a single member of His body and that it is only when the members gather together that we can fully experience the movement of God in our hearts and on our campus. Through Chi Alpha God has given me brothers and sisters who can build me up and support me in fighting the good fight of faith.'
-        },
         {
           name: 'Stephen Kenney',
           headshot: '/img/StephenKenney-Headshot.jpg',
